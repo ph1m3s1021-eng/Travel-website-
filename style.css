@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px 40px;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    margin: 10px 10px 20px 0;
+    display: inline-block;
+}
+
+form {
+    max-width: 400px;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+#result {
+    margin-top: 20px;
+}
